@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(../images/cooking.jpg);
+            background-repeat:no-repeat 
+            ;background-position: center;
+            background-size: cover; 
+            image-resolution:100%;
+        }
+        input{
+            padding: 10px;
+            font-size: 15px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px black ;
+
+        }
+        header{
+    height: 100px;
+    width: 100%;
+    border:2px  yellowgreen;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+}
+nav.categories ul li a:hover{
+    background-color: gold;
+    border-radius: 10px;
+    padding: 7px;
+}
+        .message{
+            font-size: 18px;
+            margin-top: 5px;
+        }
+        #div1{
+           
+            margin-left: 560px;
+            margin-right: 560px;
+           
+            
+        }
+        #div2{
+            margin: 290px 0px;
+            border: 2px dashed black;
+            border-radius: 10px;
+            padding: 30px;
+            background-color:rgba(99, 117, 123, 0.379);
+        }
+        input[type="submit"]{
+            background-color: orange;
+            width: 100px;
+        }
+        input[type="submit"]:hover{
+            background-color: orange;
+            transform: scale(1.15);
+            cursor: pointer;
+            transition: transform 1s ease;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+            display: inline;
+        }
+        .features-grid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: gold;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+    #lastdiv{
+        background-color: black;
+        height: 300px;
+    }
+    #last1{
+        height: 200px;
+        width: 300px;
+        background-color: black;
+        margin-top: 30px;
+        margin-left: 30px;
+        display: inline-block;
+        float: left;
+    }
+    .smalllast{
+        height: 200px;
+        width: 300px;
+        background-color: black;
+        margin-top: 30px;
+        margin-left: 30px;
+        display: inline-block;
+        float: right;
+        margin-right: 50px;
+    }
+    #lastdiv69{
+        height: 10px;
+        width: 250px;
+        background-color: black;
+         margin-left: 600px;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo" style="text-align: center;">Chef's Companion</h1>
+                <nav class ="categories">
+                    <ul>
+                    <li>
+                        <a href ="project.html" style="text-decoration: none; color: white;">Home</a>
+                
+                    </li>
+                    <li>
+                        <a href="About.html" style="text-decoration: none; color:white;">About</a> 
+                    </li>
+                    <li>
+                        <a href="Recipe.html" style="text-decoration: none; color: white;">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="Contact.html" style="text-decoration: none;color: white;">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    <center>
+        
+        <div id="div1">
+            <div id="div2">
+                <form id="myform" action="project.html">
+            <label for="name">
+            Name:
+            </label>
+            <input type="text" id="name" onkeyup="validatename()"requrired>
+            <div class="message" id="namemessage">
+            </div>
+            <label for="email">
+            Email:
+        </label>
+        <input type="email" id="email" onkeyup="validateemail()"required>
+        <div class="message" id="emailmessage"></div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" onkeyup="validatepassword()"required>
+        <div class="message" id="passwordmessage">
+        </div>
+        <input type="submit" value="Submit">
+
+    </form>
+    </div>
+    </div>
+    </center>
+
+    <script src="form.js"></script>
+    
+    <div id="lastdiv">
+        <div id="last1">
+            <h3 style="color: white;background-color: black;">Our Website</h3>
+            <p style="background-color: black;">Get Questions? Contact Us 24/7 <br>
+                ☎ 08008 08008<br>
+                contact us@Chef'sCompanion.com<br>
+                Contact Info:<br>
+                Chef'sCompanion- punjab, India
+            </p>
+        </div>
+        <div class="smalllast">
+            <h3 style="color: white;background-color: black;">Join our Newsletter</h3>
+                <p style="color: white;background-color: black;">Sign up for our website and make recipes<br> and have a chill. Pretty sweet, we know.</p>
+                <form style="background-color: black;">
+                <input type="email" placeholder="Enter your email" style="padding: 10px; width: 80%;border-radius: 10px;margin-top: 10px;" />
+                <button type="submit" style="padding: 10px; background-color: orange; color: white;border-radius: 10px;margin-top: 10px;">Enter</button>
+                </form>
+        </div>
+        <div class="smalllast">
+            <h3 style="color: white;background-color: black;">Our Policy</h3>
+            <ul>
+               <li style="background-color: black;"><a style="text-decoration: none;color: white;background-color: black;" href="#">Help & Contact</a></li>
+               <li style="background-color: black;"><a style="text-decoration: none;color: white;background-color: black;" href="#">Subscription FAQs</a></li>
+               <li style="background-color: black;"><a style="text-decoration: none;color: white;background-color: black;" href="#">Newsletter</a></li>
+               <li style="background-color: black;"><a style="text-decoration: none;color: white;background-color: black;" href="#">About Us</a></li>
+               <li style="background-color: black;"><a style="text-decoration: none;color: white;background-color: black;" href="#">Affiliates</a></li>
+               <li style="background-color: black;"><a style="text-decoration: none;color: white;background-color: black;" href="#">Legal Notice</a></li>
+              </ul>
+        </div>
+        <div class="smalllast">
+            <h3 style="color: white;background-color: black;">Information</h3>
+            <ul>
+                <li style="background-color: black;color: white;"><a style="color: white;text-decoration: none;background-color: black;" href="#">My Account</a></li>
+                <li style="background-color: black;color: white;"><a style="color: white;text-decoration: none;background-color: black;" href="#">Search History</a></li>
+                <li style="background-color: black;color: white;"><a style="color: white;text-decoration: none;background-color: black;" href="#">Wishlist</a></li>
+                <li style="background-color: black;color: white;"><a style="color: white;text-decoration: none;background-color: black;" href="#">Advertising</a></li>
+                <li style="background-color: black;color: white;"><a style="color: white;text-decoration: none;background-color: black;" href="#">Privacy Policy</a></li>
+                <li style="background-color: black;color: white;"><a style="color: white;text-decoration: none;background-color: black;" href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div id="lastdiv69">
+        <p style="color: white;background-color: black;margin-top: 20px;">&copy;2024 All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+</html>

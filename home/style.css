@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: azure;
+
+}
+header{
+    height: 100px;
+    width: 100%;
+    border:2px  yellowgreen;
+    background-color:black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+    
+
+}
+.logo{
+    font-size: 40px;
+}
+.main{
+    width: 100%;
+    height: 300px;
+    background: url(../images/project.jpg);
+    text-align: center;
+    padding: 150px 0px;
+   color:lightpink;
+   font-size: 30px;
+   font-weight: bold;
+}
+.search input{
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+.search button{
+    border-radius: 40px;
+    width: 80px;
+    height: 30px;
+    background-color: gold;
+}
+img{
+    margin-left: 400px;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-weight: bold;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    margin-top: auto;
+    background-color: black;
+    color: azure;
+    width: 100%;
+    height:100px;
+    margin-bottom: -30px;
+    padding-top: 20px;
+
+  
+
+}
+.main4{
+    background-color: lightgray;
+}
+h3{
+    margin-top: 30px;
+    font-size: 40px;
+}
+h2{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+#button2{
+    border-radius: 10px;
+    height: 30px;
+    background-color: gold;
+}
+nav.categories ul li a:hover{
+    background-color: gold;
+    border-radius: 10px;
+    padding: 7px;
+
+}
