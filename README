@@ -36,8 +36,6 @@ The user interface is developed using:
 - **Font Awesome** for icons
 
 ## 📁 Project Structure
-
-```text
 chef-s-companion/
 │
 ├── index.html
