@@ -1,0 +1,48 @@
+# 🍳 Chef's Companion
+
+Chef's Companion is a web-based recipe application designed to help users discover recipes through a simple, interactive, and user-friendly interface.
+
+## 📌 Project Overview
+
+Chef's Companion provides users with an engaging platform for exploring recipes and interacting with recipe-related content.
+
+The project focuses on creating a responsive and visually appealing web experience using frontend web technologies.
+
+## ✨ Features
+
+- 🍽️ Browse and explore recipes
+- 🔎 Search for recipes
+- ❤️ Interactive recipe interface
+- 📱 Responsive design for different screen sizes
+- 🎨 Clean and user-friendly interface
+- ⚡ Dynamic interactions using JavaScript
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+
+## 🧩 Key Components
+
+### Frontend
+
+The user interface is developed using:
+
+- **HTML** for page structure
+- **CSS** for styling, layouts, animations, and responsiveness
+- **JavaScript** for dynamic interactions and user actions
+- **Font Awesome** for icons
+
+## 📁 Project Structure
+
+```text
+chef-s-companion/
+│
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   └── ...
+└── README.md
