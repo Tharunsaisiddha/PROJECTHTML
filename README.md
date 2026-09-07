@@ -46,4 +46,3 @@ chef-s-companion/
 ├── images/
 │   └── ...
 └── README.md
-```
